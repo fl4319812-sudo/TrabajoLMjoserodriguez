@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema - Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./bs5&css/bs5css/css.css">
+</head>
+
+<body>
+
+<div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./bs5&css/bs5images/111049560a1d1c1a0d1a1a141d56161d0c571115191f1d564b4e404b4d48484a494e5641494141571e14190c544f4d480054484f4d541e5508191c544f4d480049484848541e401e401e405612081f.png" class="d-block w-100" alt="Cinema slide 1">
+        </div>
+
+        <div class="carousel-item">
+            <img src="./bs5&css/bs5images/4883027073_5e0809d3d4_b.jpg" class="d-block w-100" alt="Cinema slide 2">
+        </div>
+
+        <div class="carousel-item">
+            <img src=".//bs5&css/bs5images/MV5BMTljNzc4YWEtYTZlMS00ODMyLWIwMTAtNWQxY2VkMDEwYTk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.png" class="d-block w-100" alt="Cinema slide 3">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="./bs5&css/bs5images/logo2.png" alt="My Logo" height="70">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-lg-auto align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                        Genres
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                        <li><a class="dropdown-item" href="#">Sci-Fi</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a class="btn btn-outline-light" href="./registration.html">Register</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Featured Reviews</h2>
+
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/11561d0c0b010b0c190c111b561b1715574e4a4b4a404149570a571114574e4a4f1a4819574a4e4941484b4f404a571114271e0d1414001e0d1414564a4e4941484b4f404a5612081f.webp" alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">Inception</h2>
+                    <p class="card-text">A mind-bending sci-fi thriller that explores the boundaries of dreams and reality, full of suspense and amazing visual effects.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/The_Godfather_Logo.webp" alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">The Godfather</h2>
+                    <p class="card-text">A timeless crime masterpiece with unforgettable characters, intricate plots, and powerful storytelling that has influenced generations of filmmakers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/interstellar-the-movie-475.jpg" alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">Interstellar</h2>
+                    <p class="card-text">An emotional journey through space and time, exploring human connection, survival, and the vast mysteries of the universe.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">More Reviews</h2>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/grungy-batman-dark-knight-logo-763.jpg"  alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">The Dark Knight</h2>
+                    <p class="card-text">An unforgettable superhero film with thrilling action, moral complexity, and one of the most iconic performances in cinematic history.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/pulp_fiction__1990__logo_by_unitedsaint_djs009s-fullview.png"  alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">Pulp Fiction</h2>
+                    <p class="card-text">A revolutionary film in storytelling, full of witty dialogue, unexpected twists, and unforgettable characters that define pop culture.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/figjhtcvlub.jpg" alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">Fight Club</h2>
+                    <p class="card-text">A dark, provocative film that challenges societal norms and explores identity, consumerism, and the human psyche.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+            <div class="card h-100">
+                <img src="./bs5&css/bs5images/images.jpg" alt="poster" class="card-img-top">
+                <div class="card-body">
+                    <h2 class="card-title">The Matrix</h2>
+                    <p class="card-text">A revolutionary sci-fi classic that questions reality, freedom, and human potential while delivering groundbreaking action sequences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5 text-center">
+    <a href="./moreinfo.html" class="btn btn-primary btn-lg">
+        About Us
+    </a>
+</div>
+
+<div class="container mt-5">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#new">New Releases</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#classics">Classics</a>
+        </li>
+    </ul>
+
+    <div class="tab-content p-3 border">
+        <div class="tab-pane fade show active" id="new">
+            Reviews of the latest movies.
+        </div>
+        <div class="tab-pane fade" id="classics">
+            Reviews of classic films.
+        </div>
+    </div>
+</div>
+
+<p class="text-center mt-5">Cinema Paradiso © copyright protected</p>
+
+</body>
+</html>
