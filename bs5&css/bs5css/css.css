@@ -1,7 +1,0 @@
-body{
-  background: linear-gradient(to right, orange, yellow);
-}
-        .carousel-item img {
-            height: 450px;
-            object-fit: cover;
-        }
